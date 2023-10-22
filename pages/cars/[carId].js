@@ -12,7 +12,6 @@ const CarDetail = () => {
     const router = useRouter();
     const { carId } = router.query;
     const carDetails = carsData[carId - 1];
-    console.log(carDetails)
 
 
     return (
