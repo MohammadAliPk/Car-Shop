@@ -4,7 +4,7 @@ import { useRouter } from 'next/router';
 
 
 // data
-import carsData from '../../data/carsdata';
+import carsData from '../../data/carsData';
 import CarsList from '../../components/templates/CarsList';
 
 const FilterCars = () => {

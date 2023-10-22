@@ -5,7 +5,7 @@ import { useRouter } from 'next/router';
 import CarsList from '../../components/templates/CarsList';
 
 // data
-import carsData from '../../data/carsdata';
+import carsData from '../../data/carsData';
 
 const CartCategory = () => {
     const router = useRouter();
