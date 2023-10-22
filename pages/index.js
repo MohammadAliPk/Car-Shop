@@ -1,7 +1,20 @@
-export default function Home() {
+// data
+import carsData from '../data/carsdata';
+import CarsPage from '../components/templates/CarsPage';
+import Categories from '../components/module/Categories';
+import SearchBar from '../components/module/SearchBar';
+import AllButton from '../components/module/AllButton';
+
+function Index() {
+  const cars = carsData.slice(0, 3);
   return (
-    <>
-      <h1>card shop</h1>
-    </>
+    <div >
+      <SearchBar />
+      <Categories />
+      <AllButton />
+      <CarsPage data={cars} />
+    </div>
   )
 }
+
+export default Index;
