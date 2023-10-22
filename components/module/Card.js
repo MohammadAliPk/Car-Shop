@@ -10,7 +10,7 @@ import Link from 'next/link';
 
 const Card = (props) => {
 
-    const { id, category, image, description, location, model, price, name, year, distance } = props
+    const { id, image, location, model, price, name, year, distance } = props
 
     return (
         <Link href={`/cars/${id}`}>
