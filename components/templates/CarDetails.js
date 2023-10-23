@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Image } from 'antd';
+
 // styles 
 import styles from './CarDetails.module.css';
 
@@ -17,7 +19,7 @@ const CarDetails = (props) => {
 
     return (
         <div className={styles.container}>
-            <img src={image} className={styles.image} />
+            <Image src={image} className={styles.image} />
             <h3 className={styles.header}>{`${name} ${model}`}</h3>
             <div className={styles.details}>
                 <div>
